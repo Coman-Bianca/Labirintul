@@ -1,7 +1,9 @@
+package Model;
 
 public class LabyrinthMatrixImpl implements Labyrinth {
 
 	int[][] matrix;
+	int line;
 	
 	public LabyrinthMatrixImpl(int[][] matrix) {
 		this.matrix = matrix;

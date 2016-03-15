@@ -1,3 +1,7 @@
+package algorithm;
+
+import Model.Direction;
+import Model.Labyrinth;
 
 public interface LabyrinthSolver {
 	//get/setLabyrinth, nextCellToExplore, .... 
